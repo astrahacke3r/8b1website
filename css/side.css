@@ -13,6 +13,12 @@
     left: 0;
 }
 
+.gmaps{
+    position: relative;
+    top: 2900px;
+    left: 400px;
+}
+
 .company-website .rectangle {
     position: absolute;
     width: 1440px;
