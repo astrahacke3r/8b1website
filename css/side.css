@@ -1,8 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.company-website{
+
+}
+.logo{
+    z-index: 1;
+    position: relative;
+    width: 200px;
+    left: 70px;
+}
+
 .company-website {
     position: relative;
     width: 1453px;
     height: 5144px;
     background-color: #ffffff;
+}
+html{
+scroll-behavior: smooth;
+
+}
+
+body{
+    width: 2000px;
+}
+a{
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+.gmaps{
+    position: relative;
+    top: 2900px;
+    left: 400px;
 }
 .company-website .overlap {
     position: absolute;
@@ -11,13 +49,6 @@
     top: 0;
     left: 0;
 }
-
-.gmaps{
-    position: relative;
-    top: 2900px;
-    left: 400px;
-}
-    
 
 .company-website .rectangle {
     position: absolute;
@@ -162,6 +193,10 @@
     border-right-width: 3px;
     border-right-style: solid;
     border-color: #c3d4ff;
+}
+
+.company-website{
+    background-color: #ffffff;
 }
 
 .company-website .text-wrapper-6 {
